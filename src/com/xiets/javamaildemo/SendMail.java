@@ -58,6 +58,6 @@ public class SendMail {
     public static void main(String[] args) throws Exception {
 		SendMail  s = new SendMail();
 		//参数分别为收件人邮箱地址、邮件主题、发件人，收件人、邮件正文，均为String格式
-		s.send("xxxx@qq.com","传入参数进行发送邮件","发件人名字","收件人名字","正文内容");
+		s.send("xxxx@xxx.com","传入参数进行发送邮件","发件人名字","收件人名字","正文内容");
 	}
 }
